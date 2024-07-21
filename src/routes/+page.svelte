@@ -1,8 +1,9 @@
 <sveltekit:head>
   <title>home (beta) | siliconeCB_</title>
   <link rel="icon" href="https://u.cubeupload.com/siliconefig/picture2.png"/>
-  <meta name="title" content="siliconeCB_ - amateur web dev"/>
-  <meta name="description" content="front-End dev, based in the US 🦅"/>
+  <meta name="title" content="siliconeCB_ - amateur web dev [BETA]"/>
+  <meta name="description" content="front-end dev, based in the US 🦅"/>
+  <meta property="twitter:image" content="https://cdn.siliconecb.cc/f/betasite.png"/>
 </sveltekit:head>
 
 <div class="flex items-center justify-center min-h-screen bg-black">
