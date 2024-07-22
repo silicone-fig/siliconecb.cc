@@ -26,7 +26,7 @@
         <p class="mt-4 text-white">hello, world!</p>
       </div>
       <div class="flex justify-between w-full gap-4">
-        <a class="text-white hover:text-green-500 underline underline-offset-4 lowercase" href="https://blog.siliconecb.cc">
+        <a class="text-white hover:text-green-500 underline underline-offset-4 lowercase" href="blog">
           blog
         </a>
         <a class="text-white hover:text-green-500 underline underline-offset-4 lowercase" href="projects">

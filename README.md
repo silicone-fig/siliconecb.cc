@@ -5,7 +5,7 @@ beta site for siliconecb.cc, soon to be production
 
 1. clone the repo:
    ```bash
-   git clone https://github.com/yourusername/beta.siliconecb.cc.git
+   git clone https://github.com/silicone-fig/beta.siliconecb.cc.git
    cd beta.siliconecb.cc
    ```
 2. install dependencies:

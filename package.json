@@ -19,6 +19,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-node": "^2.0.0"
+		"@sveltejs/adapter-node": "^2.0.0",
+		"boxicons": "^2.1.4"
 	}
 }

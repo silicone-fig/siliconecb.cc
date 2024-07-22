@@ -82,12 +82,23 @@
 
   .flex.flex-col.gap-4 a {
     position: relative;
-    top: -0.5em; /* adjust this value to push the link text up more */
+    top: -0.5em;
     display: inline-block;
     width: 100%;
     overflow: visible;
     text-overflow: clip;
     white-space: normal;
+  }
+
+  .overflow-y-auto::-webkit-scrollbar {
+    display: none;
+    overflow: none;
+  }
+
+  .overflow-y-auto {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow: none;
   }
 }
 </style>
