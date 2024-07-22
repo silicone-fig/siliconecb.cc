@@ -38,7 +38,7 @@
   let projects = [
     { title: 'klydeOPT', description: 'an openly available clone of Clyde AI (killed by Discord)', link: 'https://example.com/project1', link_name: 'blog ↗' },
     { title: 'ri-2e', description: 'customizable friend bot, successor to klydeOPT', link: 'https://example.com/project2', link_name: 'github ↗' },
-    { title: 'siliconecb.cc', description: 'the website you are looking at right now!', link: 'https://siliconecb.cc', link_name: 'website ↗' },
+    { title: 'siliconecb.cc', description: 'the website you are looking at right now!', link: 'https://github.com/silicone-fig/beta.siliconecb.cc', link_name: 'website ↗' },
     //{ title: '(project title here)', description: '(description here)', link: 'https://example.com/', link_name: 'github ↗' },
   ];
 </script>
@@ -60,4 +60,34 @@
     50% {background-position: 100%}
     100% {background-position: 0%}
   }
+
+  @media only screen and (max-width: 471px) {
+  .w-full.h-\[100px\] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .w-full.h-\[100px\] * {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .flex.flex-col.gap-4 .text-xs {
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+    word-break: break-all;
+  }
+
+  .flex.flex-col.gap-4 a {
+    position: relative;
+    top: -0.5em; /* adjust this value to push the link text up more */
+    display: inline-block;
+    width: 100%;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+  }
+}
 </style>

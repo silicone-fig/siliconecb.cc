@@ -25,8 +25,8 @@
         <p class="text-gray-500 lowercase">frontend developer</p>
         <p class="mt-4 text-white">hello, world!</p>
       </div>
-      <div class="flex justify-between w-full">
-        <a class="text-white hover:text-green-500 underline underline-offset-4 lowercase" href="blog">
+      <div class="flex justify-between w-full gap-4">
+        <a class="text-white hover:text-green-500 underline underline-offset-4 lowercase" href="https://blog.siliconecb.cc">
           blog
         </a>
         <a class="text-white hover:text-green-500 underline underline-offset-4 lowercase" href="projects">
@@ -44,19 +44,6 @@
 </div>
 
 <style>
-  body {
-    margin: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-  }
-  html {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-  }
   .wrapper {
     width: 100%;
     height: 100vh;
@@ -74,3 +61,4 @@
     100% {background-position: 0%}
   }
 </style>
+
