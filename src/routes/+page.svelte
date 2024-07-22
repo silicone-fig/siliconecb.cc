@@ -1,6 +1,6 @@
 <sveltekit:head>
   <title>home (beta) | siliconeCB_</title>
-  <link rel="icon" href="https://u.cubeupload.com/siliconefig/picture2.png"/>
+  <link rel="icon" href="/favicon.png"/>
   <meta name="og:title" content="siliconeCB_ - amateur web dev [BETA]"/>
   <meta name="title" content="siliconeCB_ - amateur web dev [BETA]"/>
   <meta name="og:description" content="i'm a front-end web developer from the US with around 3 years of experience. check out my projects and blog!"/>
