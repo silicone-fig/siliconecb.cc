@@ -6,6 +6,11 @@ const config = {
   kit: {
     adapter: adapter()
   },
+  vite: {
+    server: {
+      cors: true
+    }
+  },
   preprocess: vitePreprocess()
 };
 
