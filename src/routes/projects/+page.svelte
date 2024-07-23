@@ -3,13 +3,13 @@
     {
       title: "klydeOPT",
       description: "an openly available clone of Clyde AI (killed by Discord)",
-      link: "https://example.com/project1",
-      link_name: "blog ↗",
+      link: "https://klydeopt.onrender.com/killed-by-discord",
+      link_name: "website ↗",
     },
     {
       title: "ri-2e",
       description: "customizable friend bot, successor to klydeOPT",
-      link: "https://example.com/project2",
+      link: "https://example.com/ri-2e",
       link_name: "github ↗",
     },
     {
@@ -42,7 +42,7 @@
 </sveltekit:head>
 
 <div class="wrapper">
-  <!-- background animation -->
+  <!-- background animation (don't delete) -->
 </div>
 
 <div

@@ -18,7 +18,7 @@
 </sveltekit:head>
 
 <div class="wrapper">
-  <!-- background animation -->
+  <!-- background animation (don't delete) -->
 </div>
 
 <div

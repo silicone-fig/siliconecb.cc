@@ -18,7 +18,7 @@
 </sveltekit:head>
 
 <div class="wrapper">
-  <!-- empty div for gradient animation -->
+  <!-- background animation (don't delete) -->
 </div>
 
 <div
@@ -40,7 +40,7 @@
           hi, i'm siliconeCB_
         </h1>
         <p class="text-gray-500 lowercase">frontend developer</p>
-        <p class="mt-4 text-white">hello, world!</p>
+        <p class="mt-4 text-white">i'm a modest web dev from the US <br>working on hobby projects, like<br> this website!</p>
       </div>
       <div class="flex justify-between w-full gap-4">
         <a
