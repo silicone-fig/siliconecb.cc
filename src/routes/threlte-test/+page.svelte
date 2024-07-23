@@ -7,18 +7,36 @@
 </div>
 
 <style>
-  :global(body) {
+  :global(body){
     margin: 0;
   }
-
   div {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    background: rgb(13, 19, 32);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
     background: linear-gradient(
-      180deg,
-      rgba(13, 19, 32, 1) 0%,
-      rgba(8, 12, 21, 1) 100%
+      45deg,
+      #364038,
+      #8c8c8c,
+      #000000,
+      #202822,
+      #6d9c79
     );
+    background-size: 600% 100%;
+    animation: gradient 50s cubic-bezier(0.25, 0.5, 0.5, 1) infinite;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    50% {
+      background-position: 100%;
+    }
+    100% {
+      background-position: 0%;
+    }
   }
 </style>
