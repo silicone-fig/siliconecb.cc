@@ -45,7 +45,7 @@
       <div class="flex justify-between w-full gap-4">
         <a
           class="text-white hover:text-green-500 underline underline-offset-4 lowercase"
-          href="blog"
+          href="https://blog.siliconecb.cc"
         >
           blog
         </a>
