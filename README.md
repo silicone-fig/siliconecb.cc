@@ -26,3 +26,5 @@ beta site for siliconecb.cc, soon to be production
 ## bugs / contributing
 - open an issue if you find bugs please :)
 - you can contribute by opening a pull request
+ 
+<sub>thx to prettier for making my code not look like garbage lol</sub>
