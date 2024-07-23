@@ -5,7 +5,8 @@
 	"scripts": {
 		"dev": "vite dev --host",
 		"build": "vite build",
-		"preview": "vite preview --host"
+		"preview": "vite preview --host",
+		"start": "node build/index.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^2.0.0",
@@ -20,6 +21,13 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-node": "^2.0.0",
-		"boxicons": "^2.1.4"
+		"@theatre/core": "^0.7.2",
+		"@theatre/studio": "^0.7.2",
+		"@threlte/core": "^7.3.1",
+		"@threlte/extras": "^8.11.4",
+		"@threlte/theatre": "^2.1.8",
+		"boxicons": "^2.1.4",
+		"dotenv": "^16.4.5",
+		"three": "^0.166.1"
 	}
 }
