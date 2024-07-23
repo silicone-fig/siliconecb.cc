@@ -1,5 +1,5 @@
 <script>
-  import App from "$lib/components/App.svelte";
+  import App from "$lib/components/threlte-1/App.svelte";
 </script>
 
 <div>
