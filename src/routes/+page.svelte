@@ -73,6 +73,9 @@
 </div>
 
 <style>
+  :global(body){
+    background-color: black;
+  }
   .wrapper {
     width: 100%;
     height: 100vh;
