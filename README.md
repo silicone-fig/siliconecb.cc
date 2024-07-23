@@ -1,3 +1,5 @@
+<img src="static/img/gh-bannerbeta.png" alt="Alt text" width="500">
+
 # beta.siliconecb.cc
 beta site for siliconecb.cc, soon to be production
 
