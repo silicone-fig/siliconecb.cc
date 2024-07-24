@@ -1,9 +1,9 @@
 <script>
-  import App from "$lib/components/threlte-1/App.svelte";
+  import Podium from "$lib/components/podium/Podium.svelte";
 </script>
 
 <div>
-  <App />
+  <Podium />
 </div>
 
 <style>

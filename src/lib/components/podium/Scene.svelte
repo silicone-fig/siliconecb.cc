@@ -26,7 +26,7 @@
     position.y={1}
     scale={$scale}
   >
-    <T.BoxGeometry args={[1.3, .7, 1.3]} />
+    <T.BoxGeometry args={[2.7, 1.2, 2.7]} />
     <T.MeshStandardMaterial color="white" />
   </T.Mesh>
   

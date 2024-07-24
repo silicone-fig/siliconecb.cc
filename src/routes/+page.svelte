@@ -1,3 +1,7 @@
+<script>
+  import Podium from "$lib/components/podium/Podium.svelte";
+</script>
+
 <sveltekit:head>
   <title>home (beta) | siliconeCB_</title>
   <link rel="icon" href="/favicon.png" />
@@ -29,18 +33,21 @@
     class="flex flex-col w-[90%] max-w-[600px] rounded-lg border border-white md:flex-row"
     style="background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"
   >
-    <div class="flex-1 md:order-2">
-      <div class="flex items-center justify-center h-full">
-        <div class="w-12 h-12 bg-white rounded-sm"></div>
-      </div>
+  <div class="flex-1 md:order-2">
+    <div class="flex items-center justify-center h-full">
+      <div class="w-12 h-12 bg-transparent rounded-sm"></div>
     </div>
+  </div>
     <div class="flex flex-col justify-between gap-8 p-8">
       <div>
         <h1 class="text-4xl font-bold lowercase text-white">
           hi, i'm siliconeCB_
         </h1>
         <p class="text-gray-500 lowercase">frontend developer</p>
-        <p class="mt-4 text-white">i'm a modest web dev from the US <br>working on hobby projects, like<br> this website!</p>
+        <p class="mt-4 text-white">
+          i'm a modest web dev from the US <br />working on hobby projects, like<br
+          /> this website!
+        </p>
       </div>
       <div class="flex justify-between w-full gap-4">
         <a
@@ -73,7 +80,7 @@
 </div>
 
 <style>
-  :global(body){
+  :global(body) {
     background-color: black;
   }
   .wrapper {
