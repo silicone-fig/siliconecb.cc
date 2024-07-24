@@ -1,5 +1,19 @@
 <script>
   import Podium from "$lib/components/podium/Podium.svelte";
+  import { onMount } from 'svelte';
+
+  let placeholder;
+  let overlay;
+
+  function updatePosition() {
+    const rect = placeholder.getBoundingClientRect();
+    overlay.style.top = `${rect.top}px`;
+    overlay.style.left = `${rect.left}px`;
+  }
+
+  onMount(() => {
+    window.addEventListener("resize", updatePosition);
+  });
 </script>
 
 <sveltekit:head>
@@ -35,7 +49,17 @@
   >
   <div class="flex-1 md:order-2">
     <div class="flex items-center justify-center h-full">
-      <div class="w-12 h-12 bg-transparent rounded-sm"></div>
+      <div
+        class="component-placeholder w-12 h-12 bg-transparent rounded-sm"
+        bind:this={placeholder}
+      ></div>
+      <div
+        class="overlay"
+        style="position: absolute; pointer-events: none;"
+        bind:this={overlay}
+      >
+        <Podium />
+      </div>
     </div>
   </div>
     <div class="flex flex-col justify-between gap-8 p-8">
@@ -111,5 +135,9 @@
     100% {
       background-position: 0%;
     }
+  }
+
+  .overlay {
+    pointer-events: none;
   }
 </style>
