@@ -9,13 +9,19 @@
     {
       title: "ri-2e",
       description: "customizable friend bot, successor to klydeOPT",
-      link: "https://example.com/ri-2e",
+      link: "https://github.com/silicone-fig/ri-2e",
       link_name: "github ↗",
     },
     {
       title: "siliconecb.cc",
       description: "the website you are looking at right now!",
       link: "https://github.com/silicone-fig/beta.siliconecb.cc",
+      link_name: "github ↗",
+    },
+    {
+      title: "wasteof.me",
+      description: "free memorable shortlinks for wasteof.money",
+      link: "https://wasteof.me",
       link_name: "website ↗",
     },
     //{ title: '(project title here)', description: '(description here)', link: 'https://example.com/', link_name: 'github ↗' },
