@@ -1,5 +1,15 @@
+<script>
+  import { page } from "$app/stores";
+
+  // error code parsing
+  function formatErrorMessage(message) {
+    if (!message) return "UNKNOWN_ERROR";
+    return message.toUpperCase().replace(/\s+/g, "_");
+  }
+</script>
+
 <sveltekit:head>
-  <title>404 | siliconeCB_</title>
+  <title>{$page.status} | siliconeCB_</title>
   <link rel="icon" href="https://u.cubeupload.com/siliconefig/picture2.png" />
   <meta name="og:title" content="siliconeCB_ - amateur web dev [BETA]" />
   <meta name="title" content="siliconeCB_ - amateur web dev [BETA]" />
@@ -30,8 +40,11 @@
     style="background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"
   >
     <div class="flex flex-col justify-between gap-8 p-8">
-      <h1 class="text-5xl font-bold lowercase text-white text-center">404</h1>
+      <h1 class="text-5xl font-bold lowercase text-white text-center">
+        {$page.status}
+      </h1>
       <p class="text-white text-center">that's an error :(</p>
+      <p class="error-name">{formatErrorMessage($page.error?.message)}</p>
       <a
         class="text-white hover:text-green-500 underline underline-offset-4 lowercase underline-[1px]"
         href="/">← home</a
@@ -69,5 +82,16 @@
     100% {
       background-position: 0%;
     }
+  }
+
+  .error-name {
+    font-family: "Roboto Mono", monospace;
+    text-transform: uppercase;
+    background-color: rgba(128, 128, 128, 0.2);
+    display: inline-block;
+    padding: 4px 8px;
+    margin-top: 1rem;
+    border-radius: 4px;
+    color: white;
   }
 </style>
