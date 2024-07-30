@@ -52,7 +52,7 @@
             </div>
           </div>
         </a>
-        <a href="https://wasteof.money/users/siliconecb_" target="_blank">
+        <a href="https://siliconecb_.wasteof.me" target="_blank">
           <div
             class="social-tile w-32 h-12 rounded-lg"
             style="background-color: rgba(255, 255, 255, 0.10);"
