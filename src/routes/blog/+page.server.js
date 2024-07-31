@@ -8,6 +8,8 @@ export async function load() {
       throw error(503, 'Service Unavailable');
     } else if (response.status === 200) {
       throw redirect(302, 'https://blog.siliconecb.cc');
+    } else {
+      throw error(response.status, response.statusText);
     }
   } catch (error) {
     throw error;
