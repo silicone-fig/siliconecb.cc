@@ -13,7 +13,7 @@
   />
   <meta
     property="twitter:image"
-    content="https://cdn.siliconecb.cc/f/betasite.png"
+    content="https://cdn.siliconecb.cc/f/gh-bannernew.png"
   />
 </sveltekit:head>
 

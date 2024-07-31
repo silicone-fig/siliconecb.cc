@@ -13,7 +13,7 @@
   />
   <meta
     property="twitter:image"
-    content="https://cdn.siliconecb.cc/f/betasite.png"
+    content="https://cdn.siliconecb.cc/f/gh-bannernew.png"
   />
   <link
     href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
