@@ -1,7 +1,7 @@
 <img src="static/img/gh-bannernew.png" alt="Alt text" width="500">
 
-# beta.siliconecb.cc
-beta site for siliconecb.cc, soon to be production
+# siliconecb.cc
+previously beta.siliconecb.cc, the site is just about finished so it's in production now! 🎉
 
 ## install
 
