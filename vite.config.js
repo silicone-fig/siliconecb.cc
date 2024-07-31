@@ -7,5 +7,10 @@ export default defineConfig({
     fs: {
       allow: ['static']
     }
+  },
+  build: {
+    rollupOptions: {
+      external: ['node-fetch']
+    }
   }
 });

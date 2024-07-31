@@ -1,8 +1,8 @@
 <sveltekit:head>
-  <title>home (beta) | siliconeCB_</title>
+  <title>home | siliconeCB_</title>
   <link rel="icon" href="/favicon.png" />
-  <meta name="og:title" content="siliconeCB_ - amateur web dev [BETA]" />
-  <meta name="title" content="siliconeCB_ - amateur web dev [BETA]" />
+  <meta name="og:title" content="siliconeCB_ - amateur web dev" />
+  <meta name="title" content="siliconeCB_ - amateur web dev" />
   <meta
     name="og:description"
     content="i'm a front-end web developer from the US with around 3 years of experience. check out my projects and blog!"
@@ -31,7 +31,8 @@
   >
   <div class="flex-1 md:order-2">
     <div class="flex items-center justify-center h-full">
-      <div class="w-12 h-12 bg-white rounded-sm"></div>
+      <!-- svelte-ignore a11y-img-redundant-alt -->
+      <img src="/img/hi.png" alt="the siliconecb B)" class="w-20 h-20 rounded-sm" />
     </div>
   </div>
     <div class="flex flex-col justify-between gap-8 p-8">
@@ -48,7 +49,7 @@
       <div class="flex justify-between w-full gap-4">
         <a
           class="text-white hover:text-green-500 underline underline-offset-4 lowercase"
-          href="https://blog.siliconecb.cc"
+          href="blog"
         >
           blog
         </a>

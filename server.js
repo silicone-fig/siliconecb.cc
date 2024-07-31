@@ -11,6 +11,8 @@ const host = process.env.HOST || "0.0.0.0"; // default host if none is specified
 app.use(handler);
 
 app.listen(port, host, () => {
+  console.log('prod server start')
+  console.log('')
   console.log('hey there! :)')
-  console.log(`Listening on ${host}:${port}`);
+  console.log(`listening on ${host}:${port}`);
 });

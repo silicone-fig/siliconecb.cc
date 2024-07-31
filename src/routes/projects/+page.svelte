@@ -31,8 +31,8 @@
 <sveltekit:head>
   <title>projects | siliconeCB_</title>
   <link rel="icon" href="/favicon.png" />
-  <meta name="og:title" content="siliconeCB_ - amateur web dev [BETA]" />
-  <meta name="title" content="siliconeCB_ - amateur web dev [BETA]" />
+  <meta name="og:title" content="siliconeCB_ - amateur web dev" />
+  <meta name="title" content="siliconeCB_ - amateur web dev" />
   <meta
     name="og:description"
     content="i'm a front-end web developer from the US with around 3 years of experience. check out my projects and blog!"
@@ -97,7 +97,7 @@
 </div>
 
 <style>
-  :global(body){
+  :global(body) {
     background-color: black;
   }
   .wrapper {
@@ -169,5 +169,14 @@
       scrollbar-width: none;
       overflow: none;
     }
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 </style>
