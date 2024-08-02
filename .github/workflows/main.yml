@@ -1,0 +1,5 @@
+            - name: Uptime Action
+  uses: srt32/uptime@v0.2.1
+  with:
+    url-to-hit: siliconecb.cc
+    expected-statuses: 200
