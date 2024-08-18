@@ -7,8 +7,8 @@ previously beta.siliconecb.cc, the site is just about finished so it's in produc
 
 1. clone the repo:
    ```bash
-   git clone https://github.com/silicone-fig/beta.siliconecb.cc.git
-   cd beta.siliconecb.cc
+   git clone https://github.com/silicone-fig/siliconecb.cc.git
+   cd siliconecb.cc
    ```
 2. install dependencies:
    ```bash
