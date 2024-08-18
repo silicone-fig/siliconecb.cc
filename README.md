@@ -25,6 +25,16 @@ previously beta.siliconecb.cc, the site is just about finished so it's in produc
    npm run dev
    ```
 
+## running in production
+
+1. edit .env file (optional)
+   
+    set whatever IP/Port you want to bind to
+3. run the prod server
+   ```bash
+   node server.js
+   ``` 
+
 ## bugs / contributing
 - open an issue if you find bugs please :)
 - you can contribute by opening a pull request
