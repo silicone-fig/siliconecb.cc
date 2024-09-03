@@ -38,3 +38,14 @@ previously beta.siliconecb.cc, the site is just about finished so it's in produc
 ## bugs / contributing
 - open an issue if you find bugs please :)
 - you can contribute by opening a pull request
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
