@@ -9,7 +9,7 @@
 		"start": "node server.js"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "^2.0.0",
+		"@sveltejs/adapter-node": "^5.2.2",
 		"@sveltejs/kit": "^2.5.25",
 		"@sveltejs/vite-plugin-svelte": "^3.1.1",
 		"autoprefixer": "^10.4.20",
@@ -20,7 +20,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-node": "^2.0.0",
+		"@sveltejs/adapter-node": "^5.2.2",
 		"@theatre/core": "^0.7.2",
 		"@theatre/studio": "^0.7.2",
 		"@threlte/core": "^7.3.1",
