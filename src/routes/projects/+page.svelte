@@ -1,16 +1,10 @@
 <script>
   let projects = [
     {
-      title: "klydeOPT",
-      description: "an openly available clone of Clyde AI (killed by Discord)",
-      link: "https://klydeopt.onrender.com/killed-by-discord",
-      link_name: "website ↗",
-    },
-    {
-      title: "ri-2e",
-      description: "customizable friend bot, successor to klydeOPT",
-      link: "https://github.com/silicone-fig/ri-2e",
-      link_name: "github ↗",
+      title: "ScratchAI",
+      description: "a website that generates scratch code from a prompt using gemini-1.5-flash",
+      link: "https://sparkshell.dev/projects/siliconecb/66dca9c9b6fdd7804d4df3dd",
+      link_name: "SparkShell ↗",
     },
     {
       title: "siliconecb.cc",
@@ -23,6 +17,18 @@
       description: "free memorable shortlinks for wasteof.money",
       link: "https://wasteof.me",
       link_name: "website ↗",
+    },
+    {
+      title: "klydeOPT",
+      description: "an openly available clone of Clyde AI (killed by Discord)",
+      link: "https://klydeopt.onrender.com/killed-by-discord",
+      link_name: "website ↗",
+    },
+    {
+      title: "ri-2e",
+      description: "customizable friend bot, successor to klydeOPT",
+      link: "https://github.com/silicone-fig/ri-2e",
+      link_name: "github ↗",
     },
     //{ title: '(project title here)', description: '(description here)', link: 'https://example.com/', link_name: 'github ↗' },
   ];
