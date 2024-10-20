@@ -1,6 +1,12 @@
 <script>
   let projects = [
     {
+      title: "wasteof.cash",
+      description: "a supercharged alternative client for wasteof.money",
+      link: "https://cash.wasteof.me",
+      link_name: "website ↗",
+    },
+    {
       title: "ScratchAI",
       description: "a website that generates scratch code from a prompt using gemini-1.5-flash",
       link: "https://sparkshell.dev/projects/siliconecb/66dca9c9b6fdd7804d4df3dd",
